@@ -4,10 +4,11 @@ function forLoop(array){
     var additional = "I am 1 strange loop.";
     array.push(additional);
   } else{
-    var second_addition = 'I am ${i} strange loops'
+    var second_addition = `I am ${i} strange loops.`
     array.push(second_addition);
     }
   return array;
   
 }
+
 
