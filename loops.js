@@ -20,12 +20,5 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  function incrementVariable() {
-  i = i + 1;
-}
-
-do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
-} while (i < 5);
+  
 }
