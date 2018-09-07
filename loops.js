@@ -10,3 +10,17 @@ function forLoop(array){
   return array;
   }
 }
+
+function forLoop(array) {
+    for (i=0; i<26; i++) 
+        if (i===1) {
+		var A = "I am 1 strange loop."
+        array.push(A)
+        }
+        else {
+		var B = `I am ${i} strange loops.`
+        array.push(B)
+        }
+	return array
+}
+undefined
